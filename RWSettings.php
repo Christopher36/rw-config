@@ -400,6 +400,9 @@ $wgRemoveGroups['sysop'] = array('sysop', 'autopatrolled');
 $wgAddGroups['tech'] = true;
 $wgRemoveGroups['tech'] = true;
 
+$wgAddGroups['staff'] = array('staff');
+$wgRemoveGroups['staff'] = array('staff');
+
 $wgGroupPermissions['moderator']['userrights'] = true;
 
 #autopatrolled users
